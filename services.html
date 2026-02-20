@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Dubya Roofing & Gutters - Professional roofing and gutter services. Shingle roofing, metal roofing, and seamless gutters in Orangeburg County, South Carolina.">
+    <meta name="keywords" content="roofing services, gutter services, shingle roof, metal roof, seamless gutters, South Carolina">
+    <meta name="author" content="Dubya Roofing & Gutters">
+    <title>Our Services - Dubya Roofing & Gutters</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        * {
+            font-family: 'DM Sans', sans-serif;
+        }
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+        
+        :root {
+            --color-primary: #ff5c00;
+            --color-dark: #030303;
+            --color-white: #ffffff;
+        }
+        
+        .bg-primary {
+            background-color: #ff5c00;
+        }
+        
+        .text-primary {
+            color: #ff5c00;
+        }
+        
+        .border-primary {
+            border-color: #ff5c00;
+        }
+        
+        .hover\:border-primary\/20:hover {
+            border-color: rgba(255, 92, 0, 0.2);
+        }
+        
+        .hover\:text-primary:hover {
+            color: #ff5c00;
+        }
+        
+        .focus\:ring-primary:focus {
+            --tw-ring-color: #ff5c00;
+        }
+        
+        .bg-dark {
+            background-color: #030303;
+        }
+        
+        .text-dark {
+            color: #030303;
+        }
+        
+        header {
+            background-color: #ffffff;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+        }
+        
+        a {
+            transition: all 0.3s ease;
+        }
+        
+        button {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: scale(1.02);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn-primary {
+            background-color: #ff5c00;
+            color: #ffffff;
+            border-radius: 0.5rem;
+            padding: 0.875rem 2rem;
+            font-weight: 600;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transform: translateY(-2px);
+        }
+        
+        .btn-secondary {
+            border: 2px solid #e5e7eb;
+            color: #374151;
+            border-radius: 0.5rem;
+            padding: 0.875rem 2rem;
+            font-weight: 600;
+            transition: all 0.3s ease;
+        }
+        
+        .btn-secondary:hover {
+            border-color: #ff5c00;
+            color: #ff5c00;
+        }
+        
+        .section-label {
+            font-size: 0.875rem;
+            font-weight: 600;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: rgba(255, 92, 0, 0.7);
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    
+    <!-- Header & Navigation -->
+    <header class="sticky top-0 z-50 w-full bg-white border-b border-gray-100">
+        <nav class="max-w-7xl mx-auto px-6 md:px-8 lg:px-12 py-4 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <i class="fas fa-hammer text-primary text-2xl"></i>
+                <span class="text-xl md:text-2xl font-bold text-dark">Dubya</span>
+            </div>
+            <a href="index.html" class="text-gray-700 hover:text-primary font-medium transition-colors">← Back</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-16 md:py-24 lg:py-32 bg-gradient-to-br from-white via-white to-gray-50">
+        <div class="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
+            <div class="flex flex-col gap-6 lg:gap-8">
+                <div>
+                    <span class="section-label">Professional Solutions</span>
+                    <h1 class="text-5xl md:text-6xl font-extrabold text-dark tracking-tight leading-tight mt-4">Our Services</h1>
+                </div>
+                
+                <p class="text-lg md:text-xl text-gray-600 leading-relaxed max-w-2xl">Comprehensive roofing and gutter solutions tailored to protect and enhance your home. From shingle and metal roofing to custom seamless gutters, we deliver quality craftsmanship and lasting durability.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-16 md:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
+            <div class="mb-12 md:mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-dark tracking-tight mb-4">What We Offer</h2>
+                <p class="text-lg text-gray-600">Expert services designed to meet all your roofing and gutter needs.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Card 1 -->
+                <div class="card-hover p-8 rounded-2xl bg-white border border-gray-100 shadow-sm">
+                    <div class="flex items-center justify-center w-14 h-14 rounded-xl bg-primary/10 mb-6">
+                        <i class="fas fa-layer-group text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-dark mb-4">Shingle Roofing</h3>
+                    <p class="text-gray-600 leading-relaxed">Professional installation and repair of high-quality asphalt shingle roofs. We ensure proper ventilation, flashing, and weather protection for long-lasting durability and enhanced curb appeal. Our expert team handles everything from inspection to final installation with precision and care.</p>
+                </div>
+                
+                <!-- Service Card 2 -->
+                <div class="card-hover p-8 rounded-2xl bg-white border border-gray-100 shadow-sm">
+                    <div class="flex items-center justify-center w-14 h-14 rounded-xl bg-primary/10 mb-6">
+                        <i class="fas fa-shield-alt text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-dark mb-4">Metal Roofing</h3>
+                    <p class="text-gray-600 leading-relaxed">Durable metal roofing solutions that provide superior protection, energy efficiency, and longevity. Perfect for modern homes seeking a sleek aesthetic combined with exceptional performance. Metal roofs offer superior wind resistance and can last 50+ years with minimal maintenance.</p>
+                </div>
+                
+                <!-- Service Card 3 -->
+                <div class="card-hover p-8 rounded-2xl bg-white border border-gray-100 shadow-sm">
+                    <div class="flex items-center justify-center w-14 h-14 rounded-xl bg-primary/10 mb-6">
+                        <i class="fas fa-water text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-dark mb-4">Seamless Gutters</h3>
+                    <p class="text-gray-600 leading-relaxed">Custom seamless gutters engineered for optimal water drainage and minimal maintenance. Available in 6", 7", and 8" sizes with K-style and Half Round profiles. Our seamless design eliminates leaks and provides superior protection for your home's foundation and landscaping.</p>
+                </div>
+
+                <!-- Service Card 4 -->
+                <div class="card-hover p-8 rounded-2xl bg-white border border-gray-100 shadow-sm">
+                    <div class="flex items-center justify-center w-14 h-14 rounded-xl bg-primary/10 mb-6">
+                        <i class="fas fa-tools text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-dark mb-4">Roof Repairs</h3>
+                    <p class="text-gray-600 leading-relaxed">Expert roof repair services to address leaks, damage, and wear. Our skilled technicians diagnose issues quickly and provide effective solutions to restore your roof's integrity. From minor patch work to major repairs, we ensure your home stays protected year-round.</p>
+                </div>
+
+                <!-- Service Card 5 -->
+                <div class="card-hover p-8 rounded-2xl bg-white border border-gray-100 shadow-sm">
+                    <div class="flex items-center justify-center w-14 h-14 rounded-xl bg-primary/10 mb-6">
+                        <i class="fas fa-check-circle text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-dark mb-4">Roof Inspections</h3>
+                    <p class="text-gray-600 leading-relaxed">Comprehensive roof inspections to identify potential issues before they become costly problems. We provide detailed reports with recommendations for maintenance or repairs. Regular inspections help extend your roof's lifespan and protect your investment.</p>
+                </div>
+
+                <!-- Service Card 6 -->
+                <div class="card-hover p-8 rounded-2xl bg-white border border-gray-100 shadow-sm">
+                    <div class="flex items-center justify-center w-14 h-14 rounded-xl bg-primary/10 mb-6">
+                        <i class="fas fa-droplet text-primary text-2xl"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-dark mb-4">Gutter Maintenance</h3>
+                    <p class="text-gray-600 leading-relaxed">Professional gutter cleaning and maintenance services to keep your drainage system functioning optimally. We remove debris, inspect for damage, and ensure proper water flow. Regular maintenance prevents water damage and extends the life of your gutters.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Details Section -->
+    <section class="py-16 md:py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
+            <div class="mb-12 md:mb-16">
+                <h2 class="text-4xl md:text-5xl font-bold text-dark tracking-tight mb-4">Why Choose Dubya Roofing & Gutters?</h2>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="flex gap-4">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-primary text-white">
+                            <i class="fas fa-check text-lg"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-dark mb-2">Licensed & Insured</h3>
+                        <p class="text-gray-600">We are fully licensed and insured for your peace of mind. Our credentials ensure quality workmanship and protection for your home.</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-4">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-primary text-white">
+                            <i class="fas fa-check text-lg"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-dark mb-2">Free Estimates</h3>
+                        <p class="text-gray-600">Get a comprehensive, no-obligation estimate for your project. We provide transparent pricing with no hidden fees.</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-4">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-primary text-white">
+                            <i class="fas fa-check text-lg"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-dark mb-2">15+ Years Experience</h3>
+                        <p class="text-gray-600">With over 15 years in the industry, we bring expertise and reliability to every project we undertake.</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-4">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-primary text-white">
+                            <i class="fas fa-check text-lg"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-dark mb-2">Financing Available</h3>
+                        <p class="text-gray-600">We offer flexible financing options to make your roofing and gutter projects more affordable and accessible.</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-4">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-primary text-white">
+                            <i class="fas fa-check text-lg"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-dark mb-2">5★ Google Rating</h3>
+                        <p class="text-gray-600">Our customers consistently rate us 5 stars for quality work, professionalism, and outstanding customer service.</p>
+                    </div>
+                </div>
+
+                <div class="flex gap-4">
+                    <div class="flex-shrink-0">
+                        <div class="flex items-center justify-center h-12 w-12 rounded-md bg-primary text-white">
+                            <i class="fas fa-check text-lg"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <h3 class="text-lg font-semibold text-dark mb-2">Local Expertise</h3>
+                        <p class="text-gray-600">We understand Orangeburg County's climate and weather patterns, ensuring solutions tailored to your area.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 md:py-24 bg-dark text-white relative overflow-hidden">
+        <div class="absolute inset-0 opacity-20" style="background-image: url('https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=1200&h=600&q=80'); background-size: cover; background-position: center;"></div>
+        <div class="absolute inset-0 bg-gradient-to-r from-dark via-dark/95 to-dark/90"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 md:px-8 lg:px-12 relative z-10 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold tracking-tight mb-4">Ready to Get Started?</h2>
+            <p class="text-lg text-gray-200 mb-8 max-w-2xl mx-auto">Contact us today for a free estimate and discover why Orangeburg County homeowners trust Dubya Roofing & Gutters for all their roofing and gutter needs.</p>
+            <a href="contact.html" class="btn-primary text-center inline-block">Contact Us Today</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-gray-300 py-12 md:py-16">
+        <div class="max-w-7xl mx-auto px-6 md:px-8 lg:px-12">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center gap-2 mb-4">
+                        <i class="fas fa-hammer text-primary text-2xl"></i>
+                        <span class="text-xl font-bold text-white">Dubya</span>
+                    </div>
+                    <p class="text-sm text-gray-400">Orangeburg County's trusted roofing and gutter professionals.</p>
+                </div>
+                
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="font-semibold text-white mb-4">Quick Links</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="index.html" class="text-gray-400 hover:text-primary transition-colors">Home</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-primary transition-colors">Services</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-primary transition-colors">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Services -->
+                <div>
+                    <h4 class="font-semibold text-white mb-4">Services</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="services.html" class="text-gray-400 hover:text-primary transition-colors">Shingle Roofing</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-primary transition-colors">Metal Roofing</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-primary transition-colors">Seamless Gutters</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Contact Info -->
+                <div>
+                    <h4 class="font-semibold text-white mb-4">Contact</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="tel:(803) 855-1850" class="text-gray-400 hover:text-primary transition-colors">(803) 855-1850</a></li>
+                        <li><a href="mailto:info@dubyaroofing.com" class="text-gray-400 hover:text-primary transition-colors">Email Us</a></li>
+                        <li class="text-gray-400">Orangeburg, SC</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-800 pt-8">
+                <div class="flex flex-col md:flex-row justify-between items-center text-sm text-gray-400">
+                    <p>&copy; 2024 Dubya Roofing & Gutters. All rights reserved.</p>
+                    <div class="flex gap-4 mt-4 md:mt-0">
+                        <a href="#" class="hover:text-primary transition-colors">Privacy Policy</a>
+                        <a href="#" class="hover:text-primary transition-colors">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu functionality if needed
+        const mobileMenuButton = document.querySelector('.mobile-menu-button');
+        const mobileMenu = document.querySelector('.mobile-menu');
+        
+        if (mobileMenuButton) {
+            mobileMenuButton.addEventListener('click', () => {
+                mobileMenu.classList.toggle('hidden');
+            });
+        }
+    </script>
+</body>
+</html>
